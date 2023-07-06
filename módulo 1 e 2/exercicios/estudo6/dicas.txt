@@ -1,0 +1,1 @@
+Dica pra galera que eu aprendi PRATICANDO eu vi um comentario num video e acabei testando mais coisas, nesse comentario falava pra fazer a seguinte abreviação ul>li*4 (isso cria ja ajuda bastante tente ai no seu vsc) agora tente o seguinte:   ul>li*4>a    cria 4 comandos de lista ja com o "a" inserido, espero ter ajudado !!

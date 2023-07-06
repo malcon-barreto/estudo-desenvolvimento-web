@@ -1,0 +1,23 @@
+Estilos de CSS interno/local
+<head>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+eu coloco no final
+
+Estilos de CSS externo
+<head>
+
+</head>
+
+posso usar css interno
+css externo 
+e o inline
+
+<link rel:stylesheet
+
+

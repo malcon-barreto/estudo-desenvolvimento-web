@@ -1,0 +1,6 @@
+Repositório - local onde guardamos coisas - meu pc
+
+git é um software que vai manter a vesão do meu código no meu computador
+
+Repositório Remoto - backup - backup desses códigos na nuvem - - github
+

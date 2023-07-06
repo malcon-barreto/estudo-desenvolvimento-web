@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <p>
+        HTML Guanabara
+        <a href="https://gustavoguanabara.github.oi">Github do Guanabara</a>
+    </p>
+    <p>
+        Conheça mais sobre os padrões da WEB
+        <a href="https://www.w3c.br">Escritório W3C no Brasil</a>
+    </p>
+    <p>
+        Para acompanhar os cursos, acesse
+        <a href="https:youtube.com/cursoemvideo/" class="especial">Canal do CursoEmVideo</a>
+    </p>
+</body>
+</html>
+
+<style>
+    body{
+        font: normal 1em Arial, Helvetica, sans-serif;
+    }
+    a{
+        font-weight: bold;
+        text-decoration: none;
+        color: red;
+    }
+    a:visited {
+        color: darkred;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    a:active{
+        color: crimson;
+    }
+
+    /*
+
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+    /*
+</style>

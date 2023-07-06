@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Semântica</title>
+</head>
+<body>
+    <header>
+        <h1>Título da página</h1>
+        <nav>
+            <a href="">Link 1</a>
+            <a href="">Link 2</a>
+            <a href="">Link 3</a>
+            <a href="">Link 4</a>
+        </nav>        
+    </header>
+    <main>
+        <aside> 
+            <p>aside do main</p>
+        </aside>
+        <section>
+            <article>
+                <h2>Capítulo 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere unde perferendis sapiente adipisci reiciendis laboriosam voluptas rerum? Dolores voluptas natus voluptatibus illo, voluptate consectetur dolorum? Accusantium quis autem sed temporibus?</p>
+                <h2>Capítulo 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, asperiores maiores earum, iste a amet ipsa voluptas iure, vitae eveniet aspernatur odit nostrum aut nam inventore quasi voluptatibus beatae quos.</p>
+            </article>
+            <article class="artigo2">
+                <h3>Sessão 2</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic error, sapiente reiciendis praesentium quibusdam deserunt delectus ex aliquam, modi minima amet illum vero doloribus exercitationem architecto voluptate ut aut quidem rerum assumenda nostrum dignissimos qui veniam aliquid? Nisi fugit qui quae sequi iusto quasi, at, dolorem beatae necessitatibus iste ut.</p>
+
+                <h3>Sessão 2.1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, sequi, porro eum tenetur, laboriosam magnam exercitationem laborum sunt debitis dolore eligendi voluptate a repellat! Molestiae tempora asperiores accusantium, ad placeat assumenda. Ad repellendus, quidem vero quibusdam nobis sed officiis, eos ea recusandae nostrum libero temporibus praesentium aperiam, corporis ipsa perferendis.</p>
+                <aside> 
+                    <p>Texto do aside</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Rodapé da página.</p>
+    </footer>
+</body>
+</html>
+
+<style>
+    body {
+        background-color: bisque;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+    }
+
+    header {
+        background-color: rgb(119, 180, 250);
+    }
+
+    nav > a{
+        text-decoration: none;
+        color: black;
+        font-weight: normal;
+
+    }
+
+    header > h1 {
+        background-color: rgb(247, 189, 114);
+    }
+
+    main > aside {
+        background-color: rgb(81, 241, 188);
+    }
+
+    .artigo2 {
+        background-color: rgb(103, 203, 243);
+    }
+
+    .artigo2 > aside {
+        background-color: rgb(81, 241, 188);
+
+    }
+
+    main {
+        background-color: rgb(119, 180, 250);
+    }
+    footer {
+        background-color: rgb(119, 180, 250);
+    }
+
+    h2 {
+
+    }
+
+
+</style>

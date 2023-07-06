@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores personalizados</title>
+</head>
+<body>
+    <h1 id="principal">Criando sites com HTML e CSS</h1> <!-- p id é único como um CPF -->
+    <h1>Aprendendo HTML</h1>
+
+    <h2 class="basico">HTML Básico</h2> <!-- nomeie suas classes pela funcionalidade -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa voluptatum ipsum esse. Veniam vitae hic ad! Quaerat consequuntur aperiam autem, mollitia culpa nihil provident vitae assumenda iure qui, quis officia?</p>
+
+    <h2 class="intermediario">HTML Intermediário</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea blanditiis esse et. Sapiente quas mollitia voluptates cupiditate porro! Ipsam, doloribus sed necessitatibus possimus modi non fugit distinctio repellendus <span class="destaque">eveniet aliquid</span>.</p>
+
+    <h2 class="avancado">HTML Avançado</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ipsam molestias vel sapiente numquam ab excepturi quod dolores quo corporis sunt, fugiat, provident nam aliquam placeat ut maxime impedit error.</p>
+
+
+    <h1 class="realce">Aprendendo CSS</h1>
+
+    <h2 class="basico">CSS Básico</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nostrum et eaque nemo, soluta ipsum minima vitae sint! Possimus labore placeat laudantium hic facere ipsum, quas suscipit enim dolorum illum?</p>
+
+    <h2 class="intermediario">CSS Intermediário</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos autem, maiores perferendis dicta vel ad rerum quas voluptas at iste blanditiis culpa nemo neque et officiis fugit natus sapiente exercitationem?</p>
+
+    <h2 class="avancado realce">CSS Avançado</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda porro perferendis voluptate corrupti placeat soluta sint animi, molestiae in a aut explicabo distinctio saepe possimus amet facilis! Libero, facere debitis.</p>
+
+    
+</body>
+</html>
+
+<style>
+    body {
+        background-color: bisque;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+    }
+    h1 {
+        color: midnightblue;
+    }
+    h1#principal{ /*não usar o id principal 2 vezes*/
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(250, 107, 107);
+        color: white;
+        text-align: center;
+
+
+    }
+    h2 {
+        color: midnightblue;
+    }
+    .basico{
+        color: green;
+    }
+    .intermediario{
+        color: rgba(0, 110, 255, 0.74);
+    }
+    .avancado{
+        color: red;
+
+    }
+    .destaque{
+        color: black;
+    }
+    .realce{
+        background-color: #beaa91;
+    }
+    /* HTML - id | CSS é # 
+    HTML - class | CSS é .  */
+</style>
