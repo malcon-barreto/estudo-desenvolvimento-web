@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+</body>
+
+<style>
+    body{
+        background-image: url('ex022/imagens/wallpaper002.jpg');
+    }
+    div.quadrado {
+        border: 1px solid black;
+        background-image: none;
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+        border-radius: 10px;
+        background-color: lightblue;
+    }
+    div#q1 {
+        background-color: black;
+
+    }
+    div#q2 {
+        background-image: linear-gradient(to bottom, rgb(16, 116, 74), purple);
+    }
+    div#q3 {
+        background-image: url('ex022/imagens/wallpaper002.jpg');
+        background-repeat: repeat;
+        background-size: cover;
+    }
+</style>
+</html>
